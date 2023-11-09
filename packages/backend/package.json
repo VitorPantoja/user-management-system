@@ -1,0 +1,23 @@
+{
+  "name": "@sovi-tech/backend",
+  "version": "1.0.0",
+  "description": "The package for the Sovi-Tech backend.",
+  "main": "./src/server",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node build/src/server.js",
+    "typescript": "ts-node-dev --quiet --transpile-only --exit-child --ignore-watch node_modules --",
+    "dev": "npm run typescript ./src/server"
+  },
+  "author": "Vitor Pantoja <vitortravassos3@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/rate-limit": "^8.0.3",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
