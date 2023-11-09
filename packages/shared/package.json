@@ -1,0 +1,14 @@
+{
+  "name": "@sovi-tech/shared",
+  "version": "1.0.0",
+  "description": "The package containing all the shared code for the Sovi-Tech project.",
+  "main": "./src/index",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "author": "Vitor Pantoja <vitortravassos3@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
