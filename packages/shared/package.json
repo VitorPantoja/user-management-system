@@ -1,7 +1,7 @@
 {
-  "name": "@sovi-tech/shared",
+  "name": "@cms/shared",
   "version": "1.0.0",
-  "description": "The package containing all the shared code for the Sovi-Tech project.",
+  "description": "The package containing all the shared code for the customer-management-system project.",
   "main": "./src/index",
   "scripts": {
     "build": "tsc --build"

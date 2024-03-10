@@ -1,7 +1,7 @@
-import { HttpRouter } from "./http-router";
-import { FastifyServerAdapter } from "./providers/fastify/fastify-server-adapter";
+import { IndexRoute } from '../../../application/usecases/index.route';
+import { env } from '../../config/environment';
+import { HttpServer } from '../../server/middlewares/server';
 
-const httpServer = new FastifyServerAdapter();
-const httpRouter = new HttpRouter(httpServer);
+const server = new HttpServer({ port: env.PORT, env: 'development' }, IndexRoute);
 
-export { httpServer, httpRouter };
+export { server };

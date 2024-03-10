@@ -1,6 +1,6 @@
 {
-  "name": "@types/ecommerce-monorepo",
+  "name": "@types/customer-management-system",
   "version": "0.1.0",
-  "description": "Ecommerce Monorepo Sovi Tech",
+  "description": "Customer-management-system Monorepo",
   "types": "index.d.ts"
 }
