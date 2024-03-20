@@ -1,5 +1,7 @@
 {
-  "editor.rulers": [150],
+  "editor.rulers": [
+    150
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll": "always"
   },
@@ -9,22 +11,22 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#7c2f5b",
-    "activityBar.background": "#7c2f5b",
+    "activityBar.activeBackground": "#2f457c",
+    "activityBar.background": "#2f457c",
     "activityBar.foreground": "#e7e7e7",
     "activityBar.inactiveForeground": "#e7e7e799",
     "activityBarBadge.background": "#422c74",
     "activityBarBadge.foreground": "#e7e7e7",
     "commandCenter.border": "#e7e7e799",
     "sash.hoverBorder": "#2f7c47",
-    "statusBar.background": "#7c2f5b",
+    "statusBar.background": "#2f457c",
     "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#7c2f5b",
-    "statusBarItem.remoteBackground": "#7c2f5b",
+    "statusBarItem.hoverBackground": "#2f457c",
+    "statusBarItem.remoteBackground": "#2f457c",
     "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#7c2f5b",
+    "titleBar.activeBackground": "#2f457c",
     "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#7c2f5b",
+    "titleBar.inactiveBackground": "#2f457c",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
 }

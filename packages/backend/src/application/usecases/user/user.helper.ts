@@ -1,5 +1,6 @@
-import { createHash } from 'crypto';
+import { createHash, randomBytes } from 'crypto';
 import { hash as bcryptHash, compare as bcryptCompare } from 'bcryptjs';
+import { env } from '../../../infrastructure/config/environment';
 
 /**
  * Hashes a password using SHA-256 algorithm.
@@ -12,13 +13,17 @@ export function hashPassword(password: string): string {
   return sha256.digest('hex');
 }
 
+export function generateSalt(): string {
+  return randomBytes(env.SALTS_ROUNDS).toString('hex');
+}
+
 /**
  * Generates a hashed password using bcrypt with specified salt rounds.
  * @param {string} password - The password to hash.
  * @returns {Promise<string>} - A promise resolving to the hashed password.
  */
 export async function generateHashPassword(password: string): Promise<string> {
-  const saltRounds = 10;
+  const saltRounds = generateSalt();
   return await bcryptHash(password, saltRounds);
 }
 

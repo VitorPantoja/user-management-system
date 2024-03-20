@@ -1,7 +1,6 @@
 import type { NextFunction, Request, Response } from 'express';
 import { LogClass } from '../../../infrastructure/server/logger/log-class.decorator';
 
-//@ts-ignore
 @LogClass
 export class HealthController {
   constructor() {}
