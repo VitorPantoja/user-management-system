@@ -14,7 +14,7 @@
   "plugins": [
     "@typescript-eslint/eslint-plugin",
     "import-helpers",
-    "prettier",
+    "prettier"
   ],
   "extends": [
     "plugin:import/errors",
@@ -89,7 +89,7 @@
     },
     "import/resolver": {
       "typescript": {
-        "alwaysTryTypes": true
+        "typescript": {}
       }
     }
   }

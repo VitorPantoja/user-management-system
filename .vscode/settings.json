@@ -5,6 +5,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "always"
   },
+  "editor.formatOnSave": true,
   "typescript.preferences.preferTypeOnlyAutoImports": true,
   "[json]": {
     "editor.formatOnSave": true,
